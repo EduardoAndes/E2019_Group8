@@ -4,6 +4,8 @@ import android.app.PendingIntent;
 import android.content.Intent;
 import androidx.core.app.NotificationCompat;
 import androidx.appcompat.app.AppCompatActivity;
+//import android.support.v4.app.NotificationCompat;
+//import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -26,11 +28,9 @@ public class MainActivity extends AppCompatActivity {
                 mBuilder.setContentIntent(pendingIntent);
 // Sets an ID for the notification
                 int mNotificationId = 001;
-                NotificationManager notificationManager =
-                        (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+                NotificationManager notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
 // It will display the notification in notification bar
-                notificationManager.notify(mNotificationId,
-                        mBuilder.build());
+                notificationManager.notify(mNotificationId,mBuilder.build());
             }
         });
     }
