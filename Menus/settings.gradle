@@ -8,3 +8,6 @@ dependencyResolutionManagement {
 }
 rootProject.name = "MainActivity"
 include ':app'
+include ':mainactivity'
+include ':contextmenu'
+include ':popup_menu'
