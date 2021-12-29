@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/firstFragment_home">
+
+    <fragment
+        android:id="@+id/firstFragment_home"
+        android:name="com.example.agricultureapplication.firstFragment_home"
+        android:label="fragment_first_home"
+        tools:layout="@layout/fragment_first_home" />
+    <fragment
+        android:id="@+id/secondFragment_notification"
+        android:name="com.example.agricultureapplication.secondFragment_notification"
+        android:label="fragment_second_notification"
+        tools:layout="@layout/fragment_second_notification" />
+    <fragment
+        android:id="@+id/thirdFragment_addfriend"
+        android:name="com.example.agricultureapplication.thirdFragment_addfriend"
+        android:label="fragment_third_addfriend"
+        tools:layout="@layout/fragment_third_addfriend" />
+</navigation>
