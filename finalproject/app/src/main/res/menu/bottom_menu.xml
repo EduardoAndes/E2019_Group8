@@ -2,10 +2,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/firstFragment_home"
-        android:icon="@drawable/ic_home"
-        android:title="Home" />
-    <item
         android:id="@+id/secondFragment_notification"
         android:icon="@drawable/ic_notification"
         android:title="Notification" />
@@ -13,4 +9,12 @@
         android:id="@+id/thirdFragment_addfriend"
         android:icon="@drawable/ic_add_friend"
         android:title="Add Friend" />
+    <item
+        android:id="@+id/firstFragment_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/forthFragment_Leaderboard"
+        android:icon="@drawable/ic_leaderboard"
+        android:title="Leaderboard" />
 </menu>

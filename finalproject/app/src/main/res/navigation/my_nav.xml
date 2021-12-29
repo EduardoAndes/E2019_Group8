@@ -20,4 +20,9 @@
         android:name="com.example.agricultureapplication.thirdFragment_addfriend"
         android:label="fragment_third_addfriend"
         tools:layout="@layout/fragment_third_addfriend" />
+    <fragment
+        android:id="@+id/forthFragment_Leaderboard"
+        android:name="com.example.agricultureapplication.forthFragment_Leaderboard"
+        android:label="fragment_forth__leaderboard"
+        tools:layout="@layout/fragment_forth__leaderboard" />
 </navigation>
