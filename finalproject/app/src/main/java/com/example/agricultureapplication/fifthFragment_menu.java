@@ -2,6 +2,7 @@ package com.example.agricultureapplication;
 
 import android.os.Bundle;
 
+import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -60,5 +61,6 @@ public class fifthFragment_menu extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_fifth_menu, container, false);
+
     }
 }
