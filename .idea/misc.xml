@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/admin/CC107_Group8/E2019_Group8/finalproject/app/src/main/res/layout/activity_homepage.xml" value="0.18568840579710144" />
+        <entry key="..\:/Users/admin/CC107_Group8/E2019_Group8/finalproject/app/src/main/res/layout/activity_main.xml" value="0.23324275362318841" />
+        <entry key="..\:/Users/admin/CC107_Group8/E2019_Group8/finalproject/app/src/main/res/layout/activity_register.xml" value="0.18568840579710144" />
+        <entry key="..\:/Users/admin/CC107_Group8/E2019_Group8/finalproject/app/src/main/res/layout/fragment_first_home.xml" value="0.18568840579710144" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Android API 31 Platform" project-jdk-type="Android SDK" />
+</project>
