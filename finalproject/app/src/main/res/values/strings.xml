@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AgricultureApplication</string>
+    <string name="app_name">AgreeCoolSure</string>
     <string name="title_activity_bottom_navigation_home">BottomNavigation_home</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
@@ -17,4 +17,8 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+
+    <string name="navigation_open">Open Navigation drawer</string>
+    <string name="navigation_close">Close Navigation drawer</string>
+
 </resources>

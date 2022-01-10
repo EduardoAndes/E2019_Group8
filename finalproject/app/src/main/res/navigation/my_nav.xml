@@ -26,8 +26,8 @@
         android:label="fragment_forth__leaderboard"
         tools:layout="@layout/fragment_forth__leaderboard" />
     <fragment
-        android:id="@+id/fifthFragment_menu"
-        android:name="com.example.agricultureapplication.fifthFragment_menu"
+        android:id="@+id/fifthFragment_search"
+        android:name="com.example.agricultureapplication.fifthFragment_search"
         android:label="fragment_fifth_menu"
-        tools:layout="@layout/fragment_fifth_menu" />
+        tools:layout="@layout/fragment_fifth_search" />
 </navigation>

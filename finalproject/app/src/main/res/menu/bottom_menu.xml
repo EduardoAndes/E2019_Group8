@@ -2,9 +2,9 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/fifthFragment_menu"
-        android:icon="@drawable/ic_menu"
-        android:title="Menu" />
+        android:id="@+id/fifthFragment_search"
+        android:icon="@drawable/ic_search"
+        android:title="Search" />
     <item
         android:id="@+id/thirdFragment_addfriend"
         android:icon="@drawable/ic_add_friend"
