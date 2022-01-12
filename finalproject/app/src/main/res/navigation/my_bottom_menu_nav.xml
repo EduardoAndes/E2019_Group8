@@ -24,7 +24,7 @@
         android:id="@+id/forthFragment_Leaderboard"
         android:name="com.example.agricultureapplication.forthFragment_Leaderboard"
         android:label="fragment_forth__leaderboard"
-        tools:layout="@layout/fragment_forth__leaderboard" />
+        tools:layout="@layout/fragment_forth_leaderboard" />
     <fragment
         android:id="@+id/fifthFragment_search"
         android:name="com.example.agricultureapplication.fifthFragment_search"

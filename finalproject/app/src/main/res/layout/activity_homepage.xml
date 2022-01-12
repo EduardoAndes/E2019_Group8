@@ -34,7 +34,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:navGraph="@navigation/my_nav" />
+            app:navGraph="@navigation/my_bottom_menu_nav" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <com.google.android.material.navigation.NavigationView
@@ -45,6 +45,7 @@
             app:itemTextAppearance="?android:attr/textAppearanceMedium"
             app:headerLayout="@layout/horizontal_header_menu"
             app:menu="@menu/horizontal_menu"
+            app:itemIconTint="@color/green"
             android:id="@+id/navigationview"/>
 
 </androidx.drawerlayout.widget.DrawerLayout>

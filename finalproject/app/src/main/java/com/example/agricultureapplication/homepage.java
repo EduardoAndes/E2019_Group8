@@ -33,12 +33,13 @@ public class homepage extends AppCompatActivity implements NavigationView.OnNavi
     BottomNavigationView bottomNavigationView;
     NavController navController;
 
-    @SuppressLint("WrongConstant")
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homepage);
 
+        //NAVIGATION
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.green)));
 
         drawerLayout = findViewById(R.id.drawerlayout);
@@ -50,6 +51,7 @@ public class homepage extends AppCompatActivity implements NavigationView.OnNavi
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         navigationView.setNavigationItemSelectedListener(this);
 
+        //BOTTOM NAVIGATION
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
         navController = Navigation.findNavController(this,  R.id.fragmentContainerView);
         NavigationUI.setupWithNavController(bottomNavigationView, navController);
