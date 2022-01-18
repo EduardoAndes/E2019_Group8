@@ -8,7 +8,7 @@
     tools:context=".homepage">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent">
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -48,4 +48,4 @@
             app:itemIconTint="@color/green"
             android:id="@+id/navigationview"/>
 
-</androidx.drawerlayout.widget.DrawerLayout>
+    </androidx.drawerlayout.widget.DrawerLayout>
