@@ -22,7 +22,7 @@ public class firstFragment_home extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_first_home, container, false);
 
-        btn = view.findViewById(R.id.btnToast);
+        btn = view.findViewById(R.id.btnPost);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
