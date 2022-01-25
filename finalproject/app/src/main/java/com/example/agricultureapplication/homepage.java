@@ -49,6 +49,7 @@ public class homepage extends AppCompatActivity implements NavigationView.OnNavi
         drawerLayout.addDrawerListener(toggle);
         toggle.syncState();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         navigationView.setNavigationItemSelectedListener(this);
 
         //BOTTOM NAVIGATION
