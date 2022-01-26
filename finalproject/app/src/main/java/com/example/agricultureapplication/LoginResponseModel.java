@@ -1,9 +1,9 @@
 package com.example.agricultureapplication;
 
+
 import com.google.gson.annotations.SerializedName;
 
 public class LoginResponseModel {
-
 
     @SerializedName("success")
     private String success;
@@ -26,4 +26,3 @@ public class LoginResponseModel {
         return message;
     }
 }
-

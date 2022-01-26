@@ -3,7 +3,6 @@ package com.example.agricultureapplication;
 import com.google.gson.annotations.SerializedName;
 
 public class RegistrationResponseModel {
-
     @SerializedName("success")
     private String success;
 
@@ -17,5 +16,4 @@ public class RegistrationResponseModel {
     public String getMessage() {
         return message;
     }
-
 }

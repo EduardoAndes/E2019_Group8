@@ -1,8 +1,5 @@
 package com.example.agricultureapplication;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -15,6 +12,9 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -25,7 +25,7 @@ import retrofit2.Response;
 
 public class LoginActivity extends AppCompatActivity {
 
-    EditText EditText_Username, EditText_Password;
+    EditText EditText_Email, EditText_Password;
     TextView textView;
     Button homepageButton;
 
@@ -33,6 +33,9 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        EditText_Email = findViewById(R.id.editTextTextEmail);
+        EditText_Password = findViewById(R.id.editTextTextPassword);
 
         getSupportActionBar().hide();
 
@@ -51,8 +54,8 @@ public class LoginActivity extends AppCompatActivity {
         homepageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (EditText_Username.getText().toString().equals("")) {
-                    Toast.makeText(LoginActivity.this, "Please Enter Username", Toast.LENGTH_SHORT).show();
+                if (EditText_Email.getText().toString().equals("")) {
+                    Toast.makeText(LoginActivity.this, "Please Enter Email", Toast.LENGTH_SHORT).show();
                 } /*else if (!emailValidator(inputEmail.getText().toString())) {
                     Toast.makeText(MainActivity.this, "Please Field Valid Email", Toast.LENGTH_SHORT).show();
                 }*/ else if (EditText_Password.getText().toString().equals("")) {
@@ -82,7 +85,7 @@ public class LoginActivity extends AppCompatActivity {
         progressDialog.setCancelable(false);
         progressDialog.show();
         NetworkService networkService = NetworkClient.getClient().create(NetworkService.class);
-        Call<LoginResponseModel> login = networkService.login(EditText_Username.getText().toString(), EditText_Password.getText().toString());
+        Call<LoginResponseModel> login = networkService.login(EditText_Email.getText().toString(), EditText_Password.getText().toString());
         login.enqueue(new Callback<LoginResponseModel>() {
             @Override
             public void onResponse(@NonNull Call<LoginResponseModel> call, @NonNull Response<LoginResponseModel> response) {
@@ -92,12 +95,14 @@ public class LoginActivity extends AppCompatActivity {
                         SharedPreferences preferences = getSharedPreferences(Constants.PREFERENCE_NAME, MODE_PRIVATE);
                         SharedPreferences.Editor editor = preferences.edit();
                         editor.putBoolean(Constants.KEY_ISE_LOGGED_IN, true);
-                        editor.putString(Constants.KEY_USERNAME, responseBody.getUserDetailObject().getUserDetails().get(0).getFirstName() + " " + responseBody.getUserDetailObject().getUserDetails().get(0).getLastName());
+                        editor.putString(Constants.KEY_USERNAME, responseBody.getUserDetailObject().getUserDetails().get(0).getUsername());
                         /*editor.putString(Constants.KEY_LASTNAME, responseBody.getUserDetailObject().getUserDetails().get(0).getLastName());*/
                         editor.putString(Constants.KEY_EMAIL, responseBody.getUserDetailObject().getUserDetails().get(0).getEmail());
                         editor.apply();
+                        editor.putString(Constants.KEY_PASSWORD, responseBody.getUserDetailObject().getUserDetails().get(0).getPassword());
+                        editor.apply();
                         Toast.makeText(LoginActivity.this, responseBody.getMessage(), Toast.LENGTH_SHORT).show();
-                        startActivity(new Intent(getApplicationContext(),MainActivity.class));
+                        startActivity(new Intent(getApplicationContext(),homepage.class));
                         finish();
                     } else {
                         Toast.makeText(LoginActivity.this, responseBody.getMessage(), Toast.LENGTH_SHORT).show();
