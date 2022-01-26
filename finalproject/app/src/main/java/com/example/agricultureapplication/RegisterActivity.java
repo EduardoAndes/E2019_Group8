@@ -3,6 +3,7 @@ package com.example.agricultureapplication;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -77,6 +78,7 @@ public class RegisterActivity extends AppCompatActivity {
         });
 
     }
+<<<<<<< Updated upstream
 
     private void Register(HashMap<String, String> params) {
 
@@ -112,3 +114,6 @@ public class RegisterActivity extends AppCompatActivity {
         });
     }
 }
+=======
+}
+>>>>>>> Stashed changes
