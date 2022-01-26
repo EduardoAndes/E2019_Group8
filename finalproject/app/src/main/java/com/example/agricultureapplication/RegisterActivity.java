@@ -3,7 +3,6 @@ package com.example.agricultureapplication;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -64,7 +63,7 @@ public class RegisterActivity extends AppCompatActivity {
                 } else if (editText_Password.getText().toString().equals("")) {
                     Toast.makeText(RegisterActivity.this, "Enter your Password", Toast.LENGTH_SHORT).show();
 
-
+                
                     HashMap<String, String> params = new HashMap<>();
                     params.put("fullname", editText_Fullname.getText().toString());
                     params.put("email", editText_Email.getText().toString());
@@ -78,7 +77,7 @@ public class RegisterActivity extends AppCompatActivity {
         });
 
     }
-<<<<<<< Updated upstream
+
 
     private void Register(HashMap<String, String> params) {
 
@@ -114,6 +113,3 @@ public class RegisterActivity extends AppCompatActivity {
         });
     }
 }
-=======
-}
->>>>>>> Stashed changes
