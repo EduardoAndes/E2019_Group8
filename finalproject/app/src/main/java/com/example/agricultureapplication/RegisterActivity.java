@@ -62,8 +62,8 @@ public class RegisterActivity extends AppCompatActivity {
                     Toast.makeText(RegisterActivity.this, "Enter your Username", Toast.LENGTH_SHORT).show();
                 } else if (editText_Password.getText().toString().equals("")) {
                     Toast.makeText(RegisterActivity.this, "Enter your Password", Toast.LENGTH_SHORT).show();
-
                }else{
+
 
                     HashMap<String, String> params = new HashMap<>();
                     params.put("fullname", editText_Fullname.getText().toString());
