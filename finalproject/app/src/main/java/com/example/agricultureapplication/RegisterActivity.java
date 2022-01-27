@@ -63,8 +63,6 @@ public class RegisterActivity extends AppCompatActivity {
                 } else if (editText_Password.getText().toString().equals("")) {
                     Toast.makeText(RegisterActivity.this, "Enter your Password", Toast.LENGTH_SHORT).show();
                }else{
-
-
                     HashMap<String, String> params = new HashMap<>();
                     params.put("fullname", editText_Fullname.getText().toString());
                     params.put("email", editText_Email.getText().toString());
@@ -72,9 +70,7 @@ public class RegisterActivity extends AppCompatActivity {
                     params.put("password", editText_Password.getText().toString());
                     Register(params);
                 }
-
             }
-
         });
 
     }
