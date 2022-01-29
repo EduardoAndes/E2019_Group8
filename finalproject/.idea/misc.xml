@@ -28,20 +28,27 @@
         <entry key="..\:/Users/Windows 10/Documents/GitHub/BSCSE2019_Grp8/finalproject/app/src/main/res/menu/bottom_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Windows 10/Documents/GitHub/BSCSE2019_Grp8/finalproject/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Windows 10/Documents/GitHub/BSCSE2019_Grp8/finalproject/app/src/main/res/menu/bottom_navigation.xml" value="0.20092592592592592" />
-        <entry key="..\:/Users/admin/CC107_Group8/E2019_Group8/finalproject/app/src/main/res/layout/activity_homepage.xml" value="0.24456521739130435" />
+        <entry key="..\:/Users/admin/CC107_Group8/E2019_Group8/finalproject/app/src/main/res/layout/activity_homepage.xml" value="0.33" />
         <entry key="..\:/Users/admin/CC107_Group8/E2019_Group8/finalproject/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/admin/CC107_Group8/E2019_Group8/finalproject/app/src/main/res/layout/activity_logout.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/admin/CC107_Group8/E2019_Group8/finalproject/app/src/main/res/layout/activity_main.xml" value="0.18931159420289856" />
+        <entry key="..\:/Users/admin/CC107_Group8/E2019_Group8/finalproject/app/src/main/res/layout/activity_profile.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/admin/CC107_Group8/E2019_Group8/finalproject/app/src/main/res/layout/activity_register.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/admin/CC107_Group8/E2019_Group8/finalproject/app/src/main/res/layout/activity_report_problem.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/admin/CC107_Group8/E2019_Group8/finalproject/app/src/main/res/layout/activity_welcome_screen.xml" value="0.18931159420289856" />
         <entry key="..\:/Users/admin/CC107_Group8/E2019_Group8/finalproject/app/src/main/res/layout/fragment_fifth_search.xml" value="0.27291666666666664" />
-        <entry key="..\:/Users/admin/CC107_Group8/E2019_Group8/finalproject/app/src/main/res/layout/fragment_first_home.xml" value="0.24456521739130435" />
+        <entry key="..\:/Users/admin/CC107_Group8/E2019_Group8/finalproject/app/src/main/res/layout/fragment_first_home.xml" value="0.33" />
         <entry key="..\:/Users/admin/CC107_Group8/E2019_Group8/finalproject/app/src/main/res/layout/fragment_forth__leaderboard.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/admin/CC107_Group8/E2019_Group8/finalproject/app/src/main/res/layout/fragment_forth_leaderboard.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/admin/CC107_Group8/E2019_Group8/finalproject/app/src/main/res/layout/fragment_second_notification.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/admin/CC107_Group8/E2019_Group8/finalproject/app/src/main/res/layout/fragment_third_addfriend.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/admin/CC107_Group8/E2019_Group8/finalproject/app/src/main/res/layout/horizontal_header_menu.xml" value="0.24456521739130435" />
         <entry key="..\:/Users/admin/CC107_Group8/E2019_Group8/finalproject/app/src/main/res/layout/layout_bottom_navigation.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/admin/CC107_Group8/E2019_Group8/finalproject/app/src/main/res/layout/logout.xml" value="0.14479166666666668" />
         <entry key="..\:/Users/admin/CC107_Group8/E2019_Group8/finalproject/app/src/main/res/layout/main_toolbar.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/admin/CC107_Group8/E2019_Group8/finalproject/app/src/main/res/layout/profile.xml" value="0.25" />
+        <entry key="..\:/Users/admin/CC107_Group8/E2019_Group8/finalproject/app/src/main/res/layout/reportproblem.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/admin/CC107_Group8/E2019_Group8/finalproject/app/src/main/res/menu/horizontal_menu.xml" value="0.25" />
       </map>
     </option>
   </component>

@@ -1,29 +1,22 @@
 package com.example.agricultureapplication;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
-import androidx.recyclerview.widget.RecyclerView;
-
-import android.annotation.SuppressLint;
-import android.app.ActionBar;
+import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
+import androidx.navigation.ui.NavigationUI;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
-
-import java.util.ArrayList;
 
 public class homepage extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
 
@@ -32,7 +25,8 @@ public class homepage extends AppCompatActivity implements NavigationView.OnNavi
     NavigationView navigationView;
     BottomNavigationView bottomNavigationView;
     NavController navController;
-
+    TextView logout;
+    private MenuItem item;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,6 +46,7 @@ public class homepage extends AppCompatActivity implements NavigationView.OnNavi
 
         navigationView.setNavigationItemSelectedListener(this);
 
+
         //BOTTOM NAVIGATION
         bottomNavigationView = findViewById(R.id.bottomNavigationView);
         navController = Navigation.findNavController(this,  R.id.fragmentContainerView);
@@ -66,21 +61,51 @@ public class homepage extends AppCompatActivity implements NavigationView.OnNavi
         return super.onOptionsItemSelected(item);
     }
 
+
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
         switch (item.getItemId()){
             case R.id.nav_profile:
                 Toast.makeText(this,"Profile", Toast.LENGTH_SHORT).show();
+
+                int profile = item.getItemId();
+
+                if(profile == R.id.nav_profile){
+
+                    Intent intent = new Intent(homepage.this,Profile.class);
+                    startActivity(intent);
+
+                    return true;
+                }
                 break;
-            case R.id.nav_home:
+            case R.id.nav_security:
                 Toast.makeText(this,"Home", Toast.LENGTH_SHORT).show();
+                int security = item.getItemId();
+
+                if(security == R.id.nav_security){
+
+                    Intent intent = new Intent(homepage.this,ReportProblem.class);
+                    startActivity(intent);
+
+                    return true;
+                }
                 break;
             case R.id.nav_setting:
                 Toast.makeText(this,"Setting", Toast.LENGTH_SHORT).show();
+
                 break;
             case R.id.nav_logout:
                 Toast.makeText(this,"Logout", Toast.LENGTH_SHORT).show();
+                int logout = item.getItemId();
+
+                if(logout == R.id.nav_logout){
+
+                    Intent intent = new Intent(homepage.this,LoginActivity.class);
+                    startActivity(intent);
+
+                    return true;
+                }
                 break;
             case R.id.nav_about_us:
                 Toast.makeText(this,"About Us", Toast.LENGTH_SHORT).show();
