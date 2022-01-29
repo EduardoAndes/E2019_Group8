@@ -80,7 +80,7 @@ public class homepage extends AppCompatActivity implements NavigationView.OnNavi
                 }
                 break;
             case R.id.nav_security:
-                Toast.makeText(this,"Home", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this,"Report a Problem", Toast.LENGTH_SHORT).show();
                 int security = item.getItemId();
 
                 if(security == R.id.nav_security){
@@ -109,6 +109,15 @@ public class homepage extends AppCompatActivity implements NavigationView.OnNavi
                 break;
             case R.id.nav_about_us:
                 Toast.makeText(this,"About Us", Toast.LENGTH_SHORT).show();
+                int AboutUs = item.getItemId();
+
+                if(AboutUs == R.id.nav_about_us){
+
+                    Intent intent = new Intent(homepage.this,AboutUs.class);
+                    startActivity(intent);
+
+                    return true;
+                }
                 break;
         }
 
