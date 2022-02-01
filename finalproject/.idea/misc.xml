@@ -19,12 +19,18 @@
         <entry key="..\:/Users/Windows 10/Documents/GitHub/BSCSE2019_Grp8/finalproject/app/src/main/res/layout/activity_welcome_screen.xml" value="0.25" />
         <entry key="..\:/Users/Windows 10/Documents/GitHub/BSCSE2019_Grp8/finalproject/app/src/main/res/layout/fragment_dashboard.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Windows 10/Documents/GitHub/BSCSE2019_Grp8/finalproject/app/src/main/res/layout/fragment_fifth_menu.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Windows 10/Documents/GitHub/BSCSE2019_Grp8/finalproject/app/src/main/res/layout/fragment_first_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Windows 10/Documents/GitHub/BSCSE2019_Grp8/finalproject/app/src/main/res/layout/fragment_fifth_search.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Windows 10/Documents/GitHub/BSCSE2019_Grp8/finalproject/app/src/main/res/layout/fragment_first_home.xml" value="0.33" />
         <entry key="..\:/Users/Windows 10/Documents/GitHub/BSCSE2019_Grp8/finalproject/app/src/main/res/layout/fragment_forth__leaderboard.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Windows 10/Documents/GitHub/BSCSE2019_Grp8/finalproject/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Windows 10/Documents/GitHub/BSCSE2019_Grp8/finalproject/app/src/main/res/layout/fragment_notifications.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Windows 10/Documents/GitHub/BSCSE2019_Grp8/finalproject/app/src/main/res/layout/fragment_second_notification.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Windows 10/Documents/GitHub/BSCSE2019_Grp8/finalproject/app/src/main/res/layout/fragment_third_addfriend.xml" value="0.36666666666666664" />
+<<<<<<< HEAD
+=======
+        <entry key="..\:/Users/Windows 10/Documents/GitHub/BSCSE2019_Grp8/finalproject/app/src/main/res/layout/profile.xml" value="0.22" />
+        <entry key="..\:/Users/Windows 10/Documents/GitHub/BSCSE2019_Grp8/finalproject/app/src/main/res/layout/reportproblem.xml" value="0.36666666666666664" />
+>>>>>>> 2db824f5b771ad67d23abc4ea3aff9ddd300c630
         <entry key="..\:/Users/Windows 10/Documents/GitHub/BSCSE2019_Grp8/finalproject/app/src/main/res/menu/bottom_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Windows 10/Documents/GitHub/BSCSE2019_Grp8/finalproject/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Windows 10/Documents/GitHub/BSCSE2019_Grp8/finalproject/app/src/main/res/menu/bottom_navigation.xml" value="0.20092592592592592" />
