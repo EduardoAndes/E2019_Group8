@@ -93,6 +93,15 @@ public class homepage extends AppCompatActivity implements NavigationView.OnNavi
                 break;
             case R.id.nav_setting:
                 Toast.makeText(this,"Setting", Toast.LENGTH_SHORT).show();
+                int Settings = item.getItemId();
+
+                if(Settings == R.id.nav_setting){
+
+                    Intent intent = new Intent(homepage.this,Settings.class);
+                    startActivity(intent);
+
+                    return true;
+                }
 
                 break;
             case R.id.nav_logout:
@@ -119,6 +128,8 @@ public class homepage extends AppCompatActivity implements NavigationView.OnNavi
                     return true;
                 }
                 break;
+            default:
+                throw new IllegalStateException("Unexpected value: " + item.getItemId());
         }
 
         return true;

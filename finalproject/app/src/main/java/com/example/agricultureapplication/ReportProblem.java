@@ -1,5 +1,6 @@
 package com.example.agricultureapplication;
 
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,5 +12,6 @@ public class ReportProblem extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.reportproblem);
 
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.green)));
     }
 }
