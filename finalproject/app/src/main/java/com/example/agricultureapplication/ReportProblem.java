@@ -12,6 +12,6 @@ public class ReportProblem extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.reportproblem);
 
-        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.green)));
+        getSupportActionBar().hide();
     }
 }
