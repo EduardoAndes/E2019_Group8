@@ -23,7 +23,6 @@ public class Settings extends AppCompatActivity {
                 Intent intent = new Intent(Settings.this, homepage.class);
                 startActivity(intent);
                 finish();
-
             }
         });
 
