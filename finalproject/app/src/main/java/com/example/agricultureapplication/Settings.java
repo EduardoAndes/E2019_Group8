@@ -20,7 +20,7 @@ public class Settings extends AppCompatActivity {
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Settings.this, homepage.class);
+                Intent intent = new Intent(Settings.this, firstFragment_home.class);
             }
         });
 
