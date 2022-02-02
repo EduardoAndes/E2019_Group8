@@ -21,6 +21,9 @@ public class Settings extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Settings.this, firstFragment_home.class);
+                startActivity(intent);
+                finish();
+
             }
         });
 
