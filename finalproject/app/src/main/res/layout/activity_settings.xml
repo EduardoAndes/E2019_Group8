@@ -58,7 +58,7 @@
                 tools:layout_editor_absoluteX="0dp" />
 
             <ImageView
-                android:id="@+id/imageView4"
+                android:id="@+id/ArrowBack"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:layout_constraintBottom_toTopOf="@+id/view"
