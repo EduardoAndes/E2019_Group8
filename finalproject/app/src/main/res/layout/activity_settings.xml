@@ -221,10 +221,11 @@
 
             <TextView
                 android:id="@+id/textView10"
-                android:layout_width="130dp"
+                android:layout_width="135dp"
                 android:layout_height="25dp"
                 android:layout_marginStart="15dp"
                 android:layout_marginBottom="5dp"
+                android:fontFamily="@font/raleway_medium"
                 android:text="Account Settings"
                 android:textColor="@color/black"
                 android:textSize="16sp"
@@ -237,10 +238,11 @@
 
             <TextView
                 android:id="@+id/textView12"
-                android:layout_width="130dp"
+                android:layout_width="135dp"
                 android:layout_height="25dp"
                 android:layout_marginStart="15dp"
                 android:layout_marginBottom="5dp"
+                android:fontFamily="@font/raleway_medium"
                 android:text="Dark Mode"
                 android:textColor="@color/black"
                 android:textSize="16sp"
@@ -253,10 +255,11 @@
 
             <TextView
                 android:id="@+id/textView14"
-                android:layout_width="130dp"
+                android:layout_width="135dp"
                 android:layout_height="25dp"
                 android:layout_marginStart="15dp"
                 android:layout_marginBottom="5dp"
+                android:fontFamily="@font/raleway_medium"
                 android:text="Notification"
                 android:textColor="@color/black"
                 android:textSize="16sp"
@@ -269,10 +272,11 @@
 
             <TextView
                 android:id="@+id/textView15"
-                android:layout_width="130dp"
+                android:layout_width="135dp"
                 android:layout_height="25dp"
                 android:layout_marginStart="15dp"
                 android:layout_marginBottom="5dp"
+                android:fontFamily="@font/raleway_medium"
                 android:text="Message Request"
                 android:textColor="@color/black"
                 android:textSize="16sp"
@@ -285,10 +289,11 @@
 
             <TextView
                 android:id="@+id/textView16"
-                android:layout_width="130dp"
+                android:layout_width="135dp"
                 android:layout_height="25dp"
                 android:layout_marginStart="15dp"
                 android:layout_marginBottom="5dp"
+                android:fontFamily="@font/raleway_medium"
                 android:text="Security"
                 android:textColor="@color/black"
                 android:textSize="16sp"
@@ -301,10 +306,11 @@
 
             <TextView
                 android:id="@+id/textView21"
-                android:layout_width="130dp"
+                android:layout_width="135dp"
                 android:layout_height="25dp"
                 android:layout_marginStart="15dp"
                 android:layout_marginBottom="5dp"
+                android:fontFamily="@font/raleway_medium"
                 android:text="Support"
                 android:textColor="@color/black"
                 android:textSize="16sp"
@@ -317,10 +323,11 @@
 
             <TextView
                 android:id="@+id/textView22"
-                android:layout_width="130dp"
+                android:layout_width="135dp"
                 android:layout_height="25dp"
                 android:layout_marginStart="15dp"
                 android:layout_marginBottom="5dp"
+                android:fontFamily="@font/raleway_medium"
                 android:text="Language"
                 android:textColor="@color/black"
                 android:textSize="16sp"
@@ -339,10 +346,10 @@
                 android:outlineSpotShadowColor="@color/black"
                 app:layout_constraintBottom_toTopOf="@+id/view2"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.904"
+                app:layout_constraintHorizontal_bias="0.893"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/view3"
-                app:layout_constraintVertical_bias="0.363" />
+                app:layout_constraintVertical_bias="0.272" />
 
             <ImageView
                 android:id="@+id/imageView12"
