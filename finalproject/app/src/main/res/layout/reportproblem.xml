@@ -93,7 +93,7 @@
                 android:id="@+id/view"
                 android:layout_width="wrap_content"
                 android:layout_height="1dp"
-                android:layout_marginTop="70dp"
+                android:layout_marginTop="52dp"
                 android:background="#01A560"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
@@ -140,18 +140,17 @@
                 android:id="@+id/textView12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="40dp"
                 android:fontFamily="@font/raleway_medium"
                 android:text="Help and Support"
                 android:textColor="@color/green"
-                android:textSize="30sp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toTopOf="@+id/view"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.05"
+                app:layout_constraintHorizontal_bias="0.191"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.57" />
+                app:layout_constraintVertical_bias="0.571" />
 
             <TextView
                 android:id="@+id/textView15"

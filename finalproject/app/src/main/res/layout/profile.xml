@@ -38,7 +38,7 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.535"
-                    app:srcCompat="@drawable/profile_pic" />
+                    app:srcCompat="@drawable/img_avatar" />
 
                 <TextView
                     android:id="@+id/textView23"
@@ -47,7 +47,7 @@
                     android:layout_marginEnd="20dp"
                     android:fontFamily="@font/raleway_semibold"
                     android:text="User Name"
-                    android:textColor="@color/yellow"
+                    android:textColor="@color/white"
                     android:textSize="30dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -61,6 +61,7 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/raleway_medium"
                     android:text="username"
+                    android:textColor="@color/yellow"
                     android:textSize="14sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -189,13 +190,14 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/raleway_semibold"
                     android:text="Followers"
+                    android:textColor="@color/green"
                     android:textSize="16sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.242"
+                    app:layout_constraintHorizontal_bias="0.235"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView25"
-                    app:layout_constraintVertical_bias="0.411" />
+                    app:layout_constraintVertical_bias="0.058" />
 
                 <TextView
                     android:id="@+id/textView33"
@@ -203,13 +205,14 @@
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/raleway_semibold"
                     android:text="Your Rank"
+                    android:textColor="@color/green"
                     android:textSize="16sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.78"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView27"
-                    app:layout_constraintVertical_bias="0.411" />
+                    app:layout_constraintVertical_bias="0.0" />
 
 
             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -264,6 +267,7 @@
                 android:layout_width="95dp"
                 android:layout_height="20dp"
                 android:text="Full Name"
+                android:fontFamily="@font/raleway_semibold"
                 android:textSize="12sp"
                 android:textColor="@color/green"
                 app:layout_constraintBottom_toTopOf="@+id/view"
@@ -280,6 +284,7 @@
                 android:layout_marginBottom="1dp"
                 android:fontFamily="@font/raleway_semibold"
                 android:text="User Name"
+                android:textColor="@color/black"
                 android:textAlignment="center"
                 app:layout_constraintBottom_toTopOf="@+id/view"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -294,6 +299,7 @@
                 android:layout_height="20dp"
                 android:fontFamily="@font/raleway_semibold"
                 android:text="Marites St. blk123 lot 69, Cubao City "
+                android:textColor="@color/black"
                 android:textAlignment="center"
                 app:layout_constraintBottom_toTopOf="@+id/view1"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -309,6 +315,7 @@
                 android:layout_marginTop="1dp"
                 android:fontFamily="@font/raleway_semibold"
                 android:text="username"
+                android:textColor="@color/black"
                 android:textAlignment="center"
                 app:layout_constraintBottom_toTopOf="@+id/view3"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -323,6 +330,7 @@
                 android:layout_height="20dp"
                 android:fontFamily="@font/raleway_semibold"
                 android:text="09123454321"
+                android:textColor="@color/black"
                 android:textAlignment="center"
                 app:layout_constraintBottom_toTopOf="@+id/view2"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -349,6 +357,7 @@
                 android:layout_width="95dp"
                 android:layout_height="20dp"
                 android:text="Phone Number"
+                android:fontFamily="@font/raleway_semibold"
                 android:textSize="12sp"
                 android:textColor="@color/green"
                 app:layout_constraintBottom_toTopOf="@+id/view2"
@@ -362,6 +371,7 @@
                 android:layout_width="95dp"
                 android:layout_height="20dp"
                 android:text="E-Mail"
+                android:fontFamily="@font/raleway_semibold"
                 android:textSize="12sp"
                 android:textColor="@color/green"
                 app:layout_constraintBottom_toTopOf="@+id/view3"
