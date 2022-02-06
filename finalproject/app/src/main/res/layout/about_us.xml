@@ -55,6 +55,20 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="378dp"
+                android:layout_height="105dp"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/raleway_medium"
+                android:justificationMode="inter_word"
+                android:text="Innovation We believe that innovation leads to a more connected world. Our application missions guide our innovative decision making or preoccupation during pandemic, having income to trade or sell the plants from their houses plan, and sharing a unique way for planting to share to everyone and who downloaded our apps."
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.484"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/view" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </LinearLayout>
