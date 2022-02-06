@@ -57,17 +57,48 @@
 
             <TextView
                 android:id="@+id/textView26"
-                android:layout_width="378dp"
-                android:layout_height="105dp"
-                android:layout_marginTop="25dp"
+                android:layout_width="380dp"
+                android:layout_height="129dp"
+                android:layout_marginTop="20dp"
                 android:fontFamily="@font/raleway_medium"
                 android:justificationMode="inter_word"
                 android:text="Innovation We believe that innovation leads to a more connected world. Our application missions guide our innovative decision making or preoccupation during pandemic, having income to trade or sell the plants from their houses plan, and sharing a unique way for planting to share to everyone and who downloaded our apps."
                 android:textColor="@color/black"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.484"
+                app:layout_constraintHorizontal_bias="0.483"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/view" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="384dp"
+                android:layout_height="128dp"
+                android:layout_marginTop="32dp"
+                android:fontFamily="@font/raleway_medium"
+                android:justificationMode="inter_word"
+                android:text="Our Culture at Meta, we are constantly iterating, solving problems and working together to connect people all over the world. That’s why it’s important that our workforce reflects the diversity of the people we serve.
+"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="388dp"
+                android:layout_height="131dp"
+                android:layout_marginTop="32dp"
+                android:Layout_marginTop="20dp"
+                android:fontFamily="@font/raleway_medium"
+                android:text="Serve Everyone We work to make technology accessible to everyone, and our business model is ads so our services can be free.
+Promote Economic Opportunity Our tools level the playing field so businesses grow, and strengthen the economy so that some group can donate to their area to plant more trees, we can appreciate nature to prevent floods in the area and still inhale with fresh air.
+Keep People Safe and Protect Privacy We have a responsibility to promote the best of what people can do together by keeping people safe and preventing harm.
+"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.695"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView27" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
