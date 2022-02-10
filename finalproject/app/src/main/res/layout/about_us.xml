@@ -76,8 +76,7 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="@font/raleway_medium"
                 android:justificationMode="inter_word"
-                android:text="Our Culture at Meta, we are constantly iterating, solving problems and working together to connect people all over the world. That’s why it’s important that our workforce reflects the diversity of the people we serve.
-"
+                android:text="Our Culture at Meta, we are constantly iterating, solving problems and working together to connect people all over the world. That’s why it’s important that our workforce reflects the diversity of the people we serve."
                 android:textColor="@color/black"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.48"
@@ -89,7 +88,6 @@
                 android:layout_width="385dp"
                 android:layout_height="135dp"
                 android:layout_marginTop="20dp"
-                android:Layout_marginTop="20dp"
                 android:fontFamily="@font/raleway_medium"
                 android:justificationMode="inter_word"
                 android:text="Serve Everyone We work to make technology accessible to everyone, and our business model is ads so our services can be free.

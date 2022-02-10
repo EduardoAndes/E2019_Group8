@@ -14,6 +14,7 @@ public class AboutUs extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.about_us);
 
         ImageView imageView = findViewById(R.id.ArrowBack);
         imageView.setOnClickListener(new View.OnClickListener() {

@@ -74,54 +74,20 @@
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnPost"
-                android:layout_width="86dp"
-                android:layout_height="28dp"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
                 android:layout_marginTop="12dp"
                 android:layout_marginBottom="14dp"
-                android:background="@drawable/button"
-                android:fontFamily="@font/raleway_semibold"
-                android:text="POST"
-                android:textColor="@color/white"
+                android:background="@drawable/button2"
+                android:clickable="true"
+                android:foreground="@drawable/ic_add_post"
+                android:foregroundTint="@color/white"
                 app:layout_constraintBottom_toTopOf="@+id/view1"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.95"
+                app:layout_constraintHorizontal_bias="0.956"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
-                app:layout_constraintVertical_bias="1.0" />
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btnImg"
-                android:layout_width="86dp"
-                android:layout_height="28dp"
-                android:layout_marginTop="12dp"
-                android:layout_marginBottom="14dp"
-                android:background="@drawable/button"
-                android:fontFamily="@font/raleway_semibold"
-                android:text="image"
-                android:textColor="@color/white"
-                app:layout_constraintBottom_toTopOf="@+id/view1"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.276"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
-                app:layout_constraintVertical_bias="0.0" />
-
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btnVid"
-                android:layout_width="86dp"
-                android:layout_height="28dp"
-                android:layout_marginTop="12dp"
-                android:layout_marginBottom="14dp"
-                android:background="@drawable/button"
-                android:fontFamily="@font/raleway_semibold"
-                android:text="Video"
-                android:textColor="@color/white"
-                app:layout_constraintBottom_toTopOf="@+id/view1"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.609"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
-                app:layout_constraintVertical_bias="0.0" />
+                app:layout_constraintVertical_bias="0.666" />
 
             <View
                 android:id="@+id/view1"
