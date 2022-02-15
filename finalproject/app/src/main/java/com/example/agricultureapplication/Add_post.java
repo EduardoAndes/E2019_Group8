@@ -45,6 +45,5 @@ public class Add_post extends AppCompatActivity {
     }
     private void addAnnouncement(){
 
-
     }
 }

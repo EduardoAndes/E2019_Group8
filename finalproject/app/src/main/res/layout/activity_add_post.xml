@@ -92,7 +92,7 @@
                             android:layout_gravity="center"
                             android:fontFamily="@font/raleway_medium"
                             android:gravity="center"
-                            android:text="Save"
+                            android:text="Post"
                             android:textAlignment="center"
                             android:textColor="@color/white"
                             android:textSize="15sp"
